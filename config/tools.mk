@@ -46,3 +46,9 @@ PRODUCT_COPY_FILES += \
 # Misc files
 PRODUCT_COPY_FILES += \
     $(SRC_EVERVOLV_DIR)/prebuilt/common/bin/welcome_motd:system/bin/welcome_motd
+
+# Jackpal Terminal Emulator files
+PRODUCT_COPY_FILES += \
+    $(SRC_EVERVOLV_DIR)/prebuilt/common/term/Term.apk:system/app/Term.apk \
+    $(SRC_EVERVOLV_DIR)/prebuilt/common/term/libjackpal-androidterm5.so:system/lib/libjackpal-androidterm5.so \
+    $(SRC_EVERVOLV_DIR)/prebuilt/common/term/libjackpal-termexec2.so:system/lib/libjackpal-termexec2.so
